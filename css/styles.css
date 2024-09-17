@@ -1,0 +1,119 @@
+/* Réinitialisation des marges et des paddings pour tous les éléments */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("po.jpg");; /* Couleur de fond générale */
+}
+
+/* Barre d'accueil */
+header {
+    background-color: #333; /* Couleur de fond de la barre d'accueil */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo .med {
+    color: #007bff; /* Bleu pour 'Med' */
+}
+
+.logo .dades {
+    color: #ffffff; /* Blanc pour 'Dades' */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Section principale avec boutons et vidéo */
+.media-section {
+    display: flex;
+    justify-content: space-around; /* Alignement des boutons et vidéo */
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff; /* Fond blanc pour section des médias */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-container {
+    margin-left: 20px;
+}
+
+button {
+    padding: 15px 50px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h4, footer p {
+    margin: 5px 0;
+}
+/* Section principale avec image d'arrière-plan */
+.main-section {
+    background-image: url("po.jpg");; /* Chemin relatif vers votre image d'arrière-plan */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
